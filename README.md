@@ -1,4 +1,18 @@
-# TDE 01 — java.lang.Math
+# Trabalhos de Matemática Aplicada e Computação Gráfica
+
+Este repositório reúne os exemplos desenvolvidos para as atividades da disciplina.
+
+## TDE 02 — Framework Phaser
+
+Foi criado um exemplo interativo de jogo 2D com o Phaser. Para ver a documentação, os conceitos demonstrados e as instruções de execução, acesse [`phaser/README.md`](phaser/README.md).
+
+O jogo **Geometria em Ação** demonstra renderização 2D, teclado, física Arcade, colisões, animações e cenas.
+
+## Entrega
+
+Os arquivos finais do seminário estão na pasta [`entrega/`](entrega/), incluindo o PDF para o AVA, o PPTX editável e o checklist de envio.
+
+## TDE 01 — java.lang.Math
 
 Trabalho da disciplina **Matemática Aplicada à Computação** sobre a classe matemática `java.lang.Math`, da linguagem Java.
 
@@ -27,9 +41,13 @@ O exemplo apresenta:
 ## Estrutura do projeto
 
 ```text
-TDE-java-lang-math/
+Tde-Matematica-aplicada/
 ├── README.md
-├── .gitignore
+├── phaser/
+│   ├── index.html
+│   ├── style.css
+│   ├── game.js
+│   └── README.md
 └── src/
     └── ExemploMath.java
 ```
